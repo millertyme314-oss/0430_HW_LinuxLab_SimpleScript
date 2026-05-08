@@ -2,14 +2,21 @@
 
 echo "Take the Less Traveled Path...Theo University"
 
+
 Author="Who wrote this?"
-Answer="Robert Frost" 
+Answer="Robert Frost"
+
+
 
 # Create poem directory
 mkdir -p Road_Less_Taken
 
+
+
 # Create poem file
 touch Road_Less_Taken/rhyme.txt
+
+
 
 # Place the poem into a file
 echo "Two roads diverged in a yellow wood," >> Road_Less_Taken/rhyme.txt
@@ -47,6 +54,7 @@ echo "Read my poem"
 cat Road_Less_Taken/rhyme.txt
 
 
+
 #Author Q&A
 echo "$Author"
 echo "$Answer"
@@ -54,6 +62,7 @@ echo "$Answer"
 
 #Title correction
 echo "The Road Less Taken...NOT less traveled! (Common Mistake)"
+
 
 
 #Display directory contents
