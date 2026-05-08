@@ -3,7 +3,7 @@
 echo "Take the Less Traveled Path...Theo University"
 
 Author="Who wrote this?"
-Final_Answer= "Robert Frost" 
+Answer="Robert Frost" 
 
 # Create poem directory
 mkdir -p Road_Less_Taken
@@ -49,7 +49,7 @@ cat Road_Less_Taken/rhyme.txt
 
 #Author Q&A
 echo "$Author"
-echo "$Final_Answer"
+echo "$Answer"
 
 
 #Title correction
@@ -57,15 +57,15 @@ echo "The Road Less Taken...NOT less traveled! (Common Mistake)"
 
 
 #Display directory contents
-echo "Road in the directory contains:"
+echo "ROAD IN THE DIRECTORY CONTAINS:"
 ls Road_Less_Taken
 
 
 #Show current directory
-echo "current location"
+echo "CURRENT LOCATION"
 pwd
 
 
 #Identify user
-echo "User Identified"
+echo "USER IDENTIFIED"
 whoami
