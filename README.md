@@ -1,6 +1,6 @@
 # 0430_HW_LinuxLab_SimpleScript
 
-Linux Commands Used
+Linux Commands Used (Listed Below)
 
 #!/bin/bash Specifies Bash shell interpreter.
 
