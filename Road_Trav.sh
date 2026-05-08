@@ -3,7 +3,7 @@
 echo "Take the Less Traveled Path...Theo University"
 
 Author="Who wrote this?"
-Final_Answer= Author+= ": Robert Frost" 
+Final_Answer= "$Author"+= " Robert Frost" 
 
 # Create poem directory
 mkdir -p Road_Less_Taken
